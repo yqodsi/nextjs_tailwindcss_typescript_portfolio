@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Header = () => {
   return (
-    <header className="sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center">
+    <header className="  sticky top-0 p-5 flex items-start justify-between max-w-8xl mx-auto z-20 xl:items-center">
       {/* right header */}
       <motion.div
         initial={{
@@ -24,22 +24,22 @@ const Header = () => {
       >
         {/* Icons */}
         <SocialIcon
-          url="https://linkedin.com/in/jaketrent"
+          url="https://github.com/yqodsi"
           fgColor="#EDEDEE"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://linkedin.com/in/jaketrent"
+          url="https://linkedin.com/in/yahya-qodsi-54006812a/"
           fgColor="#EDEDEE"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://linkedin.com/in/jaketrent"
+          url="https://instagram.com/yahyaqds"
           fgColor="#EDEDEE"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://linkedin.com/in/jaketrent"
+          url="https://t.me/yqodsi"
           fgColor="#EDEDEE"
           bgColor="transparent"
         />
