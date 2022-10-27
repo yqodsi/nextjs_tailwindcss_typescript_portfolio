@@ -2,9 +2,10 @@ import React from "react";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
 
+
 const Header = () => {
   return (
-    <header className=" sticky  top-0 p-5 flex items-start justify-between max-w-8xl mx-auto z-20 xl:items-center">
+    <header className=" sticky  top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center">
       {/* right header */}
       <motion.div
         initial={{
@@ -25,22 +26,23 @@ const Header = () => {
         {/* Icons */}
         <SocialIcon
           url="https://github.com/yqodsi"
-          fgColor="#EDEDEE"
+          fgColor="#F4F4F4"
           bgColor="transparent"
         />
         <SocialIcon
           url="https://linkedin.com/in/yahya-qodsi-54006812a/"
-          fgColor="#EDEDEE"
+          fgColor="#F4F4F4"
           bgColor="transparent"
+          className="hoverIcon"
         />
         <SocialIcon
           url="https://instagram.com/yahyaqds"
-          fgColor="#EDEDEE"
+          fgColor="#F4F4F4"
           bgColor="transparent"
         />
         <SocialIcon
           url="https://t.me/yqodsi"
-          fgColor="#EDEDEE"
+          fgColor="#F4F4F4"
           bgColor="transparent"
         />
       </motion.div>
@@ -66,10 +68,12 @@ const Header = () => {
         <SocialIcon
           className="cursor-pointer"
           network="email"
-          fgColor="#EDEDEE"
+          fgColor="#F4F4F4"
           bgColor="transparent"
         />
-        <p className="uppercase hidden md:inline-flex text-sm ">Get In Touch</p>
+        <p className="uppercase hidden font-semibold tracking-wider md:inline-flex text-sm ">
+          Get In Touch
+        </p>
       </motion.div>
     </header>
   );
