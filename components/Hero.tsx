@@ -24,19 +24,19 @@ const Hero = (props: Props) => {
       <Image
         className="absolute rounded-full w-32 h-32  object-cover"
         src="/pf.webp"
-        alt="Landscape picture"
+        alt="img"
         width={200}
         height={200}
       />
       <div>
-        <h2 className=" text-[#a8f346]  uppercase font-medium pb-2 tracking-[10px]">
+        <h2 className=" text-secondary  uppercase font-medium pb-2 tracking-[10px]">
           web developer
         </h2>
-        <h1 className="text-4xl text-[#F4F4F4] pt-5 font-bold lg:text-5xl px-16">
+        <h1 className="text-4xl text-third pt-5 font-bold lg:text-5xl px-16">
           <span>{text}</span>
           <Cursor cursorColor="#a8f346" />
         </h1>
-        <div className="pt-60 flex gap-3 justify-center items-center">
+        <div className="pt-60 flex sm:flex-col gap-3 justify-center items-center">
           <Link href="about">
             <button className="heroButton ">About</button>
           </Link>
