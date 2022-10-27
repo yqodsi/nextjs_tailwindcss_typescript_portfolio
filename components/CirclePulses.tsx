@@ -16,14 +16,9 @@ const CirclePulses = (props: Props) => {
          * Setting the initial keyframe to "null" will use
          * the current value to allow for interruptable keyframes.
          */
-        initial={{
-          scale: 0,
-          opacity: 0,
-          y: 500,
-          x: 0,
-        }}
-        animate={{ y: 0, x: 0, scale: [0, 0, 1], opacity: [0, 0.5, 1] }}
-        transition={{ duration: 1.5 }}
+  
+        whileInView={{y: 0, x: 0, scale: [0, 0.3, 0.4,1.2, 1], opacity: [0, 0.5, 1] }}
+        transition={{ duration: 0.8 }}
       />
     </div>
   );

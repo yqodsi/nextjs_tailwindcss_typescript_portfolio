@@ -22,7 +22,7 @@ const Hero = (props: Props) => {
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center  overflow-hidden">
       <CirclePulses />
       <Image
-        className="absolute rounded-full w-32 h-32 mx-auto object-cover"
+        className="absolute rounded-full w-32 h-32  object-cover"
         src="/pf.webp"
         alt="Landscape picture"
         width={200}
@@ -36,7 +36,7 @@ const Hero = (props: Props) => {
           <span>{text}</span>
           <Cursor cursorColor="#a8f346" />
         </h1>
-        <div className="pt-20 flex gap-3 justify-center items-center">
+        <div className="pt-60 flex gap-3 justify-center items-center">
           <Link href="about">
             <button className="heroButton ">About</button>
           </Link>
