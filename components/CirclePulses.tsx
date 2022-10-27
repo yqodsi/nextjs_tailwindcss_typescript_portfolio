@@ -10,9 +10,8 @@ const CirclePulses = (props: Props) => {
       <div className="h-52 w-52 bg-white rounded-full absolute animate-ping"></div>
       <div className="h-96 w-96 bg-white rounded-full absolute animate-pulse"></div> */}
 
-   
       <motion.div
-        className=" w-[220px] h-[220px] border-[#81e462dd] border-[10px] rounded-full mt-[200px] absolute"
+        className=" w-[220px] h-[220px] border-[#a8f346] border-[10px] rounded-full mt-[200px] absolute"
         /**
          * Setting the initial keyframe to "null" will use
          * the current value to allow for interruptable keyframes.
@@ -23,9 +22,8 @@ const CirclePulses = (props: Props) => {
           y: 500,
           x: 0,
         }}
-  
-        animate={{  y: 0, x: 0  , scale: [0, 0, 1], opacity: [0, 0.5, 1] }}
-        transition={{ duration: 1,  }}
+        animate={{ y: 0, x: 0, scale: [0, 0, 1], opacity: [0, 0.5, 1] }}
+        transition={{ duration: 1.5 }}
       />
     </div>
   );

@@ -71,7 +71,7 @@ const Header = () => {
           fgColor="#F4F4F4"
           bgColor="transparent"
         />
-        <p className="uppercase hidden font-semibold tracking-wider md:inline-flex text-sm ">
+        <p className="uppercase  text-[#a8f346] hidden font-semibold tracking-wider md:inline-flex text-sm ">
           Get In Touch
         </p>
       </motion.div>
