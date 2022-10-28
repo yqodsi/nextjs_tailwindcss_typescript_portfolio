@@ -13,21 +13,31 @@ const About = (props: Props) => {
         About
       </h3>
       <motion.img
-        className="absolute"
+        className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 object-cover rounded-full  md:h-64 md:w-64 xl:w-[500px] xl:h-[500px]"
         initial={{
           x: -200,
+          opacity: 0,
         }}
         whileInView={{
           x: 0,
+          opacity: 1,
         }}
         transition={{
           duration: 1.2,
         }}
+        viewport={{ once: true }}
         src="https://i.pinimg.com/736x/be/d9/2c/bed92cdaa8c3880d5fe77735bb8fecea--the-gorilla-planet-of-the-apes.jpg"
         alt="Landscape picture"
-        width={400}
-        height={300}
       />
+      <div>
+        <h3>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+          impedit quod distinctio, tempore aliquam amet pariatur sapiente dolore
+          eos minus sit natus, fuga deleniti ipsam labore praesentium ab quam
+          incidunt excepturi alias debitis numquam. Ullam, quam consequatur!
+          Porro, quo quia!
+        </h3>
+      </div>
     </div>
   );
 };

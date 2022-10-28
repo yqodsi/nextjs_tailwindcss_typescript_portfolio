@@ -5,7 +5,7 @@
 
 @layer components {
   .heroButton {
-    @apply uppercase text-lg mt-4 text-slate-800 font-bold  py-3 px-6 rounded-full  tracking-[5px]  transition-all duration-300 bg-[#F4F4F4]   hover:bg-[#a8f346] hover:text-[#1F1F1F]  hover:shadow-lg 
+    @apply uppercase text-lg mt-4 text-slate-800 font-bold  py-3 px-6 rounded-full  tracking-[5px]  transition-all duration-300 bg-third  hover:bg-secondary hover:text-primary  hover:shadow-lg 
   }
 }
 body{
@@ -13,3 +13,9 @@ body{
 }
 
 
+
+@supports (-webkit-touch-callout: none) {
+  .h-screen {
+    height: -webkit-fill-available;
+  }
+}
