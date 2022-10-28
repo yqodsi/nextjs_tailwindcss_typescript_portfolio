@@ -2,7 +2,6 @@ import React from "react";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
 
-
 const Header = () => {
   return (
     <header className=" sticky  top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center">
@@ -28,22 +27,25 @@ const Header = () => {
           url="https://github.com/yqodsi"
           fgColor="#F4F4F4"
           bgColor="transparent"
+          target="_blank"
         />
         <SocialIcon
           url="https://linkedin.com/in/yahya-qodsi-54006812a/"
           fgColor="#F4F4F4"
           bgColor="transparent"
-          className="hoverIcon"
+          target="_blank"
         />
         <SocialIcon
           url="https://instagram.com/yahyaqds"
           fgColor="#F4F4F4"
           bgColor="transparent"
+          target="_blank"
         />
         <SocialIcon
           url="https://t.me/yqodsi"
           fgColor="#F4F4F4"
           bgColor="transparent"
+          target="_blank"
         />
       </motion.div>
 

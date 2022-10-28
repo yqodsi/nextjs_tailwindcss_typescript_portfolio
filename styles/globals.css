@@ -5,7 +5,7 @@
 
 @layer components {
   .heroButton {
-    @apply uppercase text-lg mt-4 text-slate-800 font-bold  py-3 px-9 rounded-full  tracking-tight transition-all duration-300 bg-third  hover:bg-secondary hover:text-primary  hover:shadow-lg 
+    @apply capitalize text-lg mt-4 text-third font-bold md:py-3 py-2  rounded-sm tracking-[4px] transition-all duration-300 border-third border  hover:bg-secondary   hover:shadow-lg 
   }
 }
 body{
