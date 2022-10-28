@@ -19,7 +19,7 @@ const Hero = (props: Props) => {
     delaySpeed: 2000,
   });
   return (
-    <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center  overflow-hidden">
+    <div className="h-screen flex relative flex-col space-y-8 items-center justify-center text-center  overflow-hidden">
       <CirclePulses />
       <Image
         className="absolute rounded-full w-32 h-32  object-cover"
@@ -32,11 +32,11 @@ const Hero = (props: Props) => {
         <h2 className=" text-secondary  uppercase font-medium pb-2 tracking-[10px]">
           web developer
         </h2>
-        <h1 className="text-4xl text-third pt-5 font-bold lg:text-5xl px-16">
+        <h1 className="text-2xl md:text-4xl text-third pt-5 font-bold lg:text-5xl px-16">
           <span>{text}</span>
           <Cursor cursorColor="#a8f346" />
         </h1>
-        <div className="md:pt-32 flex pt-16 flex-col md:flex-row gap-3 justify-center items-center">
+        <div className="md:pt-32 flex-col pt-16  md:flex-row gap-3 justify-center items-center">
           <Link href="about">
             <button className="heroButton ">About</button>
           </Link>
