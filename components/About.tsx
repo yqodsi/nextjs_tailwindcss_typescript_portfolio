@@ -13,7 +13,7 @@ const About = (props: Props) => {
         About
       </h3>
       <motion.img
-        className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 object-cover rounded-full  md:h-64 md:w-64 xl:w-[500px] xl:h-[500px]"
+        className="retro-img -mb-20 md:mb-0 flex-shrink-0 w-56 h-56 object-cover rounded-full  md:h-64 md:w-64 xl:w-[500px] xl:h-[500px]"
         initial={{
           x: -200,
           opacity: 0,
