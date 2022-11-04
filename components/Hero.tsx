@@ -24,7 +24,7 @@ const Hero = (props: Props) => {
   });
   return (
     <div className="h-screen flex relative flex-col space-y-8 items-center justify-center text-center  overflow-hidden">
-      <div className="border w-36 h-36">
+      <div className="w-36 h-36 md:w-[200px] md:h-[200px]">
         <CirclePulses />
         <Image
           className="absolute rounded-full   object-cover"
@@ -46,7 +46,7 @@ const Hero = (props: Props) => {
           <Link href="about">
             <a>
               <ButtonInfo
-                text="About"
+                text="ABOUT"
                 link="about"
                 color="third"
                 icon={
@@ -60,27 +60,11 @@ const Hero = (props: Props) => {
               />
             </a>
           </Link>
-          {/* <Link href="experience">
-            <a>
-              <ButtonInfo
-                text="<Experience />"
-                link="experience"
-                color="third"
-                icon={
-                  <AccountCircleIcon
-                    style={{
-                      color: "#3C3C3C",
-                    }}
-                    fontSize="large"
-                  />
-                }
-              />
-            </a>
-          </Link> */}
+
           <Link href="skills">
             <a>
               <ButtonInfo
-                text="Skills"
+                text="SKILLS"
                 link="skills"
                 color="third"
                 icon={
@@ -97,7 +81,7 @@ const Hero = (props: Props) => {
           <Link href="projects">
             <a>
               <ButtonInfo
-                text="Projects"
+                text="PROJECTS"
                 link="projects"
                 color="third"
                 icon={

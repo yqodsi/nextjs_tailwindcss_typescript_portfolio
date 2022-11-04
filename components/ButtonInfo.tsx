@@ -11,8 +11,8 @@ type Props = {
 
 const ButtonInfo = ({ text, link, icon, type, color }: Props) => {
   return (
-    <div className="flex flex-col items-center justify-center">
-      <button className="retro rbtn-big px-9"> About</button>
+    <div className="">
+      <button className="retro rbtn-big ">{text}</button>
     </div>
   );
 };

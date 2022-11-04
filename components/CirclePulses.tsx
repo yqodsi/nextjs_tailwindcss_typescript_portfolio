@@ -6,16 +6,8 @@ type Props = {};
 const CirclePulses = (props: Props) => {
   return (
     <div className="relative flex justify-center items-center">
-      {/* <div className="h-20 w-20 bg-white rounded-full absolute animate-ping"></div>
-      <div className="h-52 w-52 bg-white rounded-full absolute animate-ping"></div>
-      <div className="h-96 w-96 bg-white rounded-full absolute animate-pulse"></div> */}
-
       <motion.div
-        className=" w-[150px] h-[150px] md:w-[220px] md:h-[220px] border-secondary  border-[10px] md:border-[10px] rounded-full  md:mt-[200px] mt-[142px] absolute"
-        /**
-         * Setting the initial keyframe to "null" will use
-         * the current value to allow for interruptable keyframes.
-         */
+        className=" w-[155px] h-[155px] md:w-[220px] md:h-[220px] border-secondary  border-[10px] md:border-[10px] rounded-full  md:mt-[200px] mt-[144px] absolute"
         initial={{
           opacity: 0,
           scale: 1.1,
