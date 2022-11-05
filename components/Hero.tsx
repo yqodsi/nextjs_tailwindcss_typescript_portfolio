@@ -3,9 +3,6 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 import CirclePulses from "./CirclePulses";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import AccountCircleIcon from "@mui/icons-material/AccountCircle";
-import CodeIcon from "@mui/icons-material/Code";
-import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 
 import Link from "next/link";
 import ButtonInfo from "./ButtonInfo";
@@ -45,54 +42,18 @@ const Hero = (props: Props) => {
         <div className="md:pt-32 flex flex-col pt-6  md:flex-row gap-8 justify-center items-center">
           <Link href="about">
             <a>
-              <ButtonInfo
-                text="ABOUT"
-                link="about"
-                color="third"
-                icon={
-                  <AccountCircleIcon
-                    style={{
-                      color: "#3C3C3C",
-                    }}
-                    fontSize="large"
-                  />
-                }
-              />
+              <ButtonInfo text="ABOUT" />
             </a>
           </Link>
 
           <Link href="skills">
             <a>
-              <ButtonInfo
-                text="SKILLS"
-                link="skills"
-                color="third"
-                icon={
-                  <CodeIcon
-                    style={{
-                      color: "#3C3C3C",
-                    }}
-                    fontSize="large"
-                  />
-                }
-              />
+              <ButtonInfo text="SKILLS" />
             </a>
           </Link>
           <Link href="projects">
             <a>
-              <ButtonInfo
-                text="PROJECTS"
-                link="projects"
-                color="third"
-                icon={
-                  <EmojiEventsIcon
-                    style={{
-                      color: "#3C3C3C",
-                    }}
-                    fontSize="large"
-                  />
-                }
-              />
+              <ButtonInfo text="PROJECTS" />
             </a>
           </Link>
         </div>
