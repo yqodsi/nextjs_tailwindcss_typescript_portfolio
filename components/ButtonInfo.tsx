@@ -9,7 +9,7 @@ type Props = {
   color: string;
 };
 
-const ButtonInfo = ({ text, link, icon, type, color }: Props) => {
+const ButtonInfo = ({ text, link, icon,  color }: Props) => {
   return (
     <div className="">
       <button className="retro rbtn-big ">{text}</button>
