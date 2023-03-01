@@ -9,7 +9,7 @@ const Home: NextPage = () => {
   return (
     <div className="bg-[#3C3C3C] text-white h-screen snap-y snap-mandatory overflow-x-hidden z-3">
       <Head>
-        <title>Yahya's Portfolio</title>
+        <title>Yahya Portfolio</title>
       </Head>
 
       <Header />
