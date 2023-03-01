@@ -3,12 +3,13 @@ import Head from "next/head";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import About from "../components/About";
+import Section from "../components/Section";
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-[#3C3C3C] text-white h-screen snap-y snap-mandatory overflow-scroll z-3">
+    <div className="bg-[#3C3C3C] text-white h-screen snap-y snap-mandatory overflow-x-hidden z-3">
       <Head>
-        <title>Yahya Portfolio</title>
+        <title>Yahya's Portfolio</title>
       </Head>
 
       <Header />
@@ -21,6 +22,10 @@ const Home: NextPage = () => {
         <About />
       </div>
       {/* Experience */}
+
+      <div id="section" className="snap-center">
+        <Section />
+      </div>
 
       {/* Skills */}
 

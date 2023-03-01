@@ -6,7 +6,7 @@ type Props = {};
 
 const About = (props: Props) => {
   return (
-    <div className="relative h-screen flex md:flex-row flex-col text-center md:text-left items-center justify-evenly w-xl md:max-w-7xl border mx-auto">
+    <div className="relative h-screen flex md:flex-row flex-col text-center md:text-left items-center justify-evenly w-xl md:max-w-7xl  mx-auto">
       <motion.h3
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

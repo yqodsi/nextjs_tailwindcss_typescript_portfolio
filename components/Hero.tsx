@@ -39,19 +39,19 @@ const Hero = (props: Props) => {
           <span>{text}</span>
           <Cursor cursorColor="#a8f346" />
         </h1>
-        <div className="md:pt-32 flex flex-col pt-6  md:flex-row gap-8 justify-center items-center">
-          <Link href="about">
+        <div className="md:pt-20 flex flex-col pt-6  md:flex-row gap-12 justify-center items-center">
+          <Link href="#about">
             <a>
               <ButtonInfo text="ABOUT" />
             </a>
           </Link>
 
-          <Link href="skills">
+          <Link href="#skills">
             <a>
               <ButtonInfo text="SKILLS" />
             </a>
           </Link>
-          <Link href="projects">
+          <Link href="#projects">
             <a>
               <ButtonInfo text="PROJECTS" />
             </a>
